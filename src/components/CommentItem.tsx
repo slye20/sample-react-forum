@@ -29,7 +29,13 @@ const CommentItem: React.FC<Props> = ({ comment, styled }) => {
         return (
             <Card className={classes.commentCard}>
                 <CardContent>
-                    <Typography variant="body2" color="textPrimary" className={classes.commentBody} component="p">
+                    <Typography
+                        variant="body2"
+                        color="textPrimary"
+                        className={classes.commentBody}
+                        component="p"
+                        textAlign={"center"}
+                    >
                         {comment.body}
                     </Typography>
                     <Typography color="textSecondary" className={classes.metadata} gutterBottom>

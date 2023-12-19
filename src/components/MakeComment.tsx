@@ -50,11 +50,8 @@ const MakeComment: React.FC<Props> = ({ onAddComment }: Props) => {
                     value={text}
                 />
                 <br />
-                <Button variant="contained" type="submit" style={{ margin: "10px 20px" }}>
+                <Button color="warning" variant="contained" type="submit" style={{ margin: "10px 20px" }}>
                     post
-                </Button>
-                <Button variant="contained" type="reset" style={{ margin: "10px 20px" }}>
-                    reset
                 </Button>
             </form>
         </div>
