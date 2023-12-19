@@ -53,6 +53,15 @@ const MakeComment: React.FC<Props> = ({ onAddComment }: Props) => {
                 <Button color="warning" variant="contained" type="submit" style={{ margin: "10px 20px" }}>
                     post
                 </Button>
+                <Button
+                    color="warning"
+                    variant="contained"
+                    type="submit"
+                    style={{ margin: "10px 20px" }}
+                    onClick={() => console.log("hello")}
+                >
+                    hello
+                </Button>
             </form>
         </div>
     );
